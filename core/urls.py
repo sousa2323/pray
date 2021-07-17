@@ -6,4 +6,5 @@ app_name = 'core'
 
 urlpatterns = [
     path('', PageView.as_view(), name='page-view'),
+    
 ]
